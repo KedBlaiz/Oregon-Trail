@@ -41,7 +41,7 @@ class Wagon {
         const Quarantine = this.passengers.some(function (passengers) {
          return passengers.isHealthy === false
         })
-        return 'Quarantine'
+        return ('Quarantine')
     }
 
     totalFood() {
@@ -49,6 +49,6 @@ class Wagon {
             return sum + this.passengers.totalFood
         }, 0)
        
-        return 'totalFood' 
+        return ('totalFood') 
     }
 }

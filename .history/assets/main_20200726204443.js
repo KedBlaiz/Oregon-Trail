@@ -49,6 +49,6 @@ class Wagon {
             return sum + this.passengers.totalFood
         }, 0)
        
-        return 'totalFood' 
+        return ('totalFood' 
     }
 }
